@@ -1,0 +1,14 @@
+/* TaskManager.css */
+.task-manager {
+    text-align: center;
+    margin: 100px auto;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  /* Add more CSS styling to customize the appearance of your homepage */
+  
