@@ -48,7 +48,7 @@ function TaskManager() {
 
     const handleDeleteTask = async (task) => {
 
-        const response = await fetch(`http://localhost:8000/deletetask/${selectedTask.id}`, {
+        const response = await fetch(`http://localhost:8000/deletetask/${task.id}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',
